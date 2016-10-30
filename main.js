@@ -11,4 +11,11 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   
   console.log( add2numbers( 3, 6 ) );
+  
+  fruit.forEach( function (element){
+
+  console.log( element + " taste pretty good ");
+  
+  });
+  
 });
