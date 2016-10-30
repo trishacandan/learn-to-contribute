@@ -5,4 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
   console.log(name)
   var fruit= ["apple", "banana", "orange"]
   console.log(fruit);
+  
+  function add2numbers ( first, second ) {
+    return first + second;
+  }
+  
+  console.log( add2numbers( 3, 6 ) );
 });
