@@ -21,4 +21,15 @@ document.addEventListener('DOMContentLoaded', function () {
   var p = document.getElementById("first-paragraph");
   p.style.color = "red";
   
+  var names = ["Dean", "Sam", "Cass"];
+
+  names.forEach ( function ( dude ) { 
+    var p = document.createElement("p");
+    var text = document.createTextNode( dude );
+
+    p.appendChild(text);
+
+    var b = document.getElementsByTagName("body");
+    b[0].appendChild(p);
+  }); 
 });
