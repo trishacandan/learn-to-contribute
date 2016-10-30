@@ -1,4 +1,4 @@
-# Hacktoberfest
+# Learn to Contribute
 
 During the month of October, visit https://hacktoberfest.digitalocean.com, register and submit four pull requests to win a free T-shirt.
 Follow these instructions to contribute to our open source project.
