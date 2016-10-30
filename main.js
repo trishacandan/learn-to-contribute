@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   // write your code below here
-  x = 53;
+  var x = 53;
+  var name="Dean"; 
+  console.log(name)
 });
