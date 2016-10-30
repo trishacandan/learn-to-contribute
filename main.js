@@ -18,4 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
   });
   
+  var p = document.getElementById("first-paragraph");
+  p.style.color = "red";
+  
 });
