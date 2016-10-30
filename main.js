@@ -3,4 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var x = 53;
   var name="Dean"; 
   console.log(name)
+  var fruit= ["apple", "banana", "orange"]
+  console.log(fruit);
 });
